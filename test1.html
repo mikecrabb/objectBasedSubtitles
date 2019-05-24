@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="assets/css/kube.min.css">
+  <script type="text/javascript" src="assets/js/scripts.js"></script>
+  <title>Home Page</title>
+</head>
+
+<body>
+  <div class="container">
+
+
+    <head>
+      <h1>Object Based Subtitles</h1>
+    </head>
+    <main>
+      <video id="myVideo" autoplay>
+        <source src="https://ia800208.us.archive.org/35/items/Arduino.TheDocumentary.English/Arduino.The.Documentary.2010.English_512kb.mp4" type="video/mp4">
+        </source>
+        <!-- <source src="assets/movies/arduino.m4v" type="video/mp4"></source> -->
+
+        <!-- <track label="TTML XML" kind="subtitles" srclang="en" src="assets/movies/vttsubs.vtt.xml"></track>
+            <track label="TTML " kind="subtitles" srclang="en" src="assets/movies/subtitle_track.ttml"></track>  -->
+        <track label="VTT" kind="subtitles" srclang="en" src="assets/movies/vttsubs.vtt" controls default>
+        </track>
+      </video>
+      <div class="burntHider">
+
+      </div>
+
+      </br></br>
+      <button class="button is-secondary" onclick="playVideo()" type="button">Play</button>
+      <button class="button is-secondary" onclick="skipIntro()" type="button">Skip Intro</button>
+      <button class="button is-secondary" onclick="setPlaySpeed()" type="button">SpeedUp</button></br></br>
+
+      <button class="button" type="button" onclick="voiceOn('massimoBanzi')" name="button">Massimo On</button>
+      <button class="button" type="button" onclick="voiceOff('massimoBanzi')" name="button">Massimo Off</button></br></br>
+
+      <button class="button" type="button" onclick="voiceOn('davidCuartelles')" name="button">Cuartelles On</button>
+      <button class="button" type="button" onclick="voiceOff('davidCuartelles')" name="button">Cuartelles Off</button>
+
+
+      <script>
+        var vid = document.getElementById("myVideo");
+
+        function playVideo(){
+          vid.play();
+        }
+
+        function setPlaySpeed() {
+          vid.playbackRate = 2;
+        }
+
+        function skipIntro() {
+          vid.currentTime = 49;
+        }
+
+        function voiceOff(character) {
+
+          var css = "video::cue(v."+character+"){color: rgba(0,0,0,0);}",
+            head = document.head || document.getElementsByTagName('head')[0],
+            style = document.createElement('style');
+
+          head.appendChild(style);
+
+          style.type = 'text/css';
+          style.appendChild(document.createTextNode(css));
+        }
+
+        function voiceOn(character) {
+          var css = "video::cue(v."+character+"){color: rgba(255,255,255,1);}",
+            head = document.head || document.getElementsByTagName('head')[0],
+            style = document.createElement('style');
+
+          head.appendChild(style);
+
+          style.type = 'text/css';
+            style.appendChild(document.createTextNode(css));
+        }
+      </script>
+
+    </main>
+  </div>
+</body>
+
+</html>
