@@ -1,202 +1,202 @@
 ﻿WEBVTT
 
 00:00:49.379 --> 00:00:51.776
-Arduino started as a project
+<v.one>Arduino started as a project</v>
 
 00:00:52.079 --> 00:00:55.259
-that we did at the Interaction
-Design Institute Ivrea...
+<v.massimoBanzi>that we did at the Interaction
+Design Institute Ivrea...</v>
 
 00:00:55.736 --> 00:00:58.456
-back in 2005
+<v.massimoBanzi>back in 2005</v>
 
 00:00:59.018 --> 00:01:02.776
-But it has some roots in previous
-projects that we worked on
+<v.massimoBanzi>But it has some roots in previous
+projects that we worked on</v>
 
 00:01:03.059 --> 00:01:07.339
-Cause we wanted to make a tool
-for our students that was more
+<v.massimoBanzi>Cause we wanted to make a tool
+for our students that was more</v>
 
 00:01:07.589 --> 00:01:11.339
-modern that what was available
-on the market at the moment
+<v.massimoBanzi>modern that what was available
+on the market at the moment</v>
 
 00:01:11.589 --> 00:01:13.859
-Specially because the tool that
-everybody was using,
+<v.massimoBanzi>Specially because the tool that
+everybody was using,</v>
 
 00:01:14.109 --> 00:01:15.380
-this thing called the BASIC Stamp,
+<v.massimoBanzi>this thing called the BASIC Stamp,</v>
 
 00:01:15.630 --> 00:01:21.380
-in Italy it was costing, at the
-time, about 76€, that's like 100$
+<v.massimoBanzi>in Italy it was costing, at the
+time, about 76€, that's like 100$</v>
 
 00:01:21.630 --> 00:01:23.179
-so it was very expensive
-for the students
+<v.massimoBanzi>so it was very expensive
+for the students</v>
 
 00:01:23.429 --> 00:01:25.339
-They wouldn't do any...
-too much work
+<v.massimoBanzi>They wouldn't do any...
+too much work</v>
 
 00:01:25.589 --> 00:01:27.779
-because they didn't want to
-spend money on buying
+<v.massimoBanzi>because they didn't want to
+spend money on buying</v>
 
 00:01:28.029 --> 00:01:31.339
-many boards that expensive,
-so what happened...
+<v.massimoBanzi>many boards that expensive,
+so what happened...</v>
 
 00:01:31.589 --> 00:01:33.979
-we started to look at possible
-alternatives, and also we
+<v.massimoBanzi>we started to look at possible
+alternatives, and also we</v>
 
 00:01:34.229 --> 00:01:36.740
-were working on Processing,
-the Processing language
+<v.massimoBanzi>were working on Processing,
+the Processing language</v>
 
 00:01:36.990 --> 00:01:40.139
-because Casey Reas, one of the
-founders, was one of the teachers
+<v.massimoBanzi>because Casey Reas, one of the
+founders, was one of the teachers</v>
 
 00:01:40.389 --> 00:01:43.339
-in Ivrea, so we thought: "Why
-don't we try to figure out
+<v.massimoBanzi>in Ivrea, so we thought: "Why
+don't we try to figure out</v>
 
 00:01:43.589 --> 00:01:46.219
-how to make Processing for the
-hardware?" So we worked with
+<v.massimoBanzi>how to make Processing for the
+hardware?" So we worked with</v>
 
 00:01:46.570 --> 00:01:51.339
-a student who did a thesis on
-the topic, and that produced a
+<v.massimoBanzi>a student who did a thesis on
+the topic, and that produced a</v>
 
 00:01:51.589 --> 00:01:56.339
-wiring platform. Hernando
-Barragán, a Colombian student,
+<v.massimoBanzi>wiring platform. Hernando
+Barragán, a Colombian student,</v>
 
 00:01:56.589 --> 00:01:59.499
-worked on it. And then after
-Hernando made Wiring
+<v.massimoBanzi>worked on it. And then after
+Hernando made Wiring</v>
 
 00:01:59.749 --> 00:02:02.859
-we started to figure out how
-could we make the whole platform
+<v.massimoBanzi>we started to figure out how
+could we make the whole platform</v>
 
 00:02:03.109 --> 00:02:06.619
-even simpler, even cheaper,
-even easier to use.
+<v.massimoBanzi>even simpler, even cheaper,
+even easier to use.</v>
 
 00:02:06.979 --> 00:02:10.980
-And then we started to essentialy
-reimplement the whole thing
+<v.massimoBanzi>And then we started to essentialy
+reimplement the whole thing</v>
 
 00:02:11.340 --> 00:02:14.860
-as an open source project. We
-wanted it to be open source
+<v.massimoBanzi>as an open source project. We
+wanted it to be open source</v>
 
 00:02:15.110 --> 00:02:19.059
-so that everybody could come
-and help, and contribute.
+<v.massimoBanzi>so that everybody could come
+and help, and contribute.</v>
 
 00:02:19.309 --> 00:02:22.620
-Then we had another issue: that
-there was a lot of discussion
+<v.massimoBanzi>Then we had another issue: that
+there was a lot of discussion</v>
 
 00:02:22.870 --> 00:02:27.140
-about the school closing, so
-we decided: "OK, let's try
+<v.massimoBanzi>about the school closing, so
+we decided: "OK, let's try</v>
 
 00:02:27.390 --> 00:02:30.539
-to make this platform and open
-it up as much as possible."
+<v.massimoBanzi>to make this platform and open
+it up as much as possible."</v>
 
 00:02:30.789 --> 00:02:33.669
-Then we stopped talking about
-what we would like to have
+<v.davidCuartelles>Then we stopped talking about
+what we would like to have</v>
 
 00:02:33.919 --> 00:02:35.589
-and started talking about
-how to do it.
+<v.davidCuartelles>and started talking about
+how to do it.</v>
 
 00:02:35.839 --> 00:02:39.069
-And when we started talking
-about how to do it, Massimo
+<v.davidCuartelles>And when we started talking
+about how to do it, Massimo</v>
 
 00:02:39.319 --> 00:02:41.309
-had been experimenting
-with some technology,
+<v.davidCuartelles>had been experimenting
+with some technology,</v>
 
 00:02:41.559 --> 00:02:43.669
-I had been experimenting
-with a different technology...
+<v.davidCuartelles>I had been experimenting
+with a different technology...</v>
 
 00:02:45.069 --> 00:02:51.028
-We had a talk to decide
-what was best and I decided
+<v.davidCuartelles>We had a talk to decide
+what was best and I decided</v>
 
 00:02:51.278 --> 00:02:53.628
-to try this technology
-Massimo had,
+<v.davidCuartelles>to try this technology
+Massimo had,</v>
 
 00:02:53.884 --> 00:02:57.789
-because of its
-better compatibility
+<v.davidCuartelles>because of its
+better compatibility</v>
 
 00:02:58.039 --> 00:02:59.809
-with different OS.
+<v.davidCuartelles>with different OS.</v>
 
 00:03:00.829 --> 00:03:04.389
-I checked the hardware, found
-a couple bugs, we fixed that,
+<v.davidCuartelles>I checked the hardware, found
+a couple bugs, we fixed that,</v>
 
 00:03:04.789 --> 00:03:08.589
-and well, we started
-making boards...
+<v.davidCuartelles>and well, we started
+making boards...</v>
 
 00:03:08.839 --> 00:03:10.789
-I mean, the process from starting
-to seriously work on it
+<v.davidCuartelles>I mean, the process from starting
+to seriously work on it</v>
 
 00:03:11.039 --> 00:03:13.989
-to having a board was
-a mere two-day one.
+<v.davidCuartelles>to having a board was
+a mere two-day one.</v>
 
 00:03:14.949 --> 00:03:16.709
-All the rest was software.
+<v.davidCuartelles>All the rest was software.</v>
 
 00:03:17.000 --> 00:03:20.340
-While I was kind of in
-the middle of this I met with
+<v.massimoBanzi>While I was kind of in
+the middle of this I met with</v>
 
 00:03:20.699 --> 00:03:26.139
-David Cuartielles, who started to
-sort of help me in the project,
+<v.massimoBanzi>David Cuartielles, who started to
+sort of help me in the project,</v>
 
 00:03:26.389 --> 00:03:30.699
-then became a major contributor,
-and then together we kind of made
+<v.massimoBanzi>then became a major contributor,
+and then together we kind of made</v>
 
 00:03:30.949 --> 00:03:35.780
-the first Arduino hardware; then
-we had David Mellis joining as
+<v.massimoBanzi>the first Arduino hardware; then
+we had David Mellis joining as</v>
 
 00:03:36.099 --> 00:03:40.620
-a student to write the software,
-then Tom came in as an advisor,
+<v.massimoBanzi>a student to write the software,
+then Tom came in as an advisor,</v>
 
 00:03:40.870 --> 00:03:44.940
-and finally then Gianluca came
-in as the person who was able
+<v.massimoBanzi>and finally then Gianluca came
+in as the person who was able</v>
 
 00:03:45.190 --> 00:03:48.819
-to manufacture the board, that's
-how the team kind of formed,
+<v.massimoBanzi>to manufacture the board, that's
+how the team kind of formed,</v>
 
 00:03:49.080 --> 00:03:52.039
-by adding people by their skills.
+<v.massimoBanzi>by adding people by their skills.</v>
 
 00:04:02.728 --> 00:04:06.809
 We've been using Wiring boards
